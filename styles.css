@@ -1,0 +1,43 @@
+* {
+    font-family: 'Afacad Flux', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.box {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    min-width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    font-size: 20px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    cursor: pointer; /* Add pointer cursor for better UX */
+}
+
+.field {
+    border: solid #ddd 1px;
+    font-size: 20px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Add some space between input and button */
+}
